@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    materialApp(
+      home: material(
+        child: text('Hello World!'),
+      ),
+    ),
+  );
+}
